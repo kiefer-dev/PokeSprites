@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
 
-		<title>PokeSprite</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="A simple web app to view Pokemon sprites">
+	<meta name="keywords" content="pokemon, sprites, shiny, nintendo">
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
+	<title>PokeSprite</title>
 
-		<h1>Pokemon Sprites</h1>
-		<select id="genDropdown">
-			<option value="1">Generation 1</option>
-			<option value="2">Generation 2</option>
-			<option value="3">Generation 3</option>
-			<option value="4">Generation 4</option>
-			<option value="5">Generation 5</option>
-			<option value="6">Generation 6</option>
-			<option value="7">Generation 7</option>
-			<option value="8">Generation 8</option>
-			<option value="9">Alternate Forms</option>
-		</select>
+	<!-- external CSS link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
 
-		<select name="pokemon" id="pokemonDropdown">
-			<option>Please select a Pokemon</option>
-		</select>
-		<br/>
-		<input id="pokemonInput" type="text" placeholder="Or type one here!">
-		<button id="getPokemon">Get Pokemon</button>
+<body>
 
-		<br/>
-		<h2 id="pokemonName"></h2>
-		<br/>
-		<img id="normalFront" src="">
-		<img id="shinyFront" src="">
-		<br/>
-		<img id="normalBack" src="">
-		<img id="shinyBack" src="">
+	<h1>Pokemon Sprites</h1>
+	<select id="genDropdown">
+		<option value="1">Generation 1</option>
+		<option value="2">Generation 2</option>
+		<option value="3">Generation 3</option>
+		<option value="4">Generation 4</option>
+		<option value="5">Generation 5</option>
+		<option value="6">Generation 6</option>
+		<option value="7">Generation 7</option>
+		<option value="8">Generation 8</option>
+		<option value="9">Alternate Forms</option>
+	</select>
 
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+	<select name="pokemon" id="pokemonDropdown">
+		<option>Please select a Pokemon</option>
+	</select>
+	<br />
+	<input id="pokemonInput" type="text" placeholder="Or type one here!">
+	<button id="getPokemon">Get Pokemon</button>
+
+	<br />
+	<h2 id="pokemonName"></h2>
+	<br />
+	<img id="normalFront" src="">
+	<img id="shinyFront" src="">
+	<br />
+	<img id="normalBack" src="">
+	<img id="shinyBack" src="">
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>
