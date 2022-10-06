@@ -1,7 +1,7 @@
 # PokéSprites
 A super simple front-end web app utilizing an API to pull in-game sprites for all Pokémon in existence.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://kiefer-dev.github.io/PokeSprites/
 
 ![.gif to show app in action](https://github.com/kiefer-dev/portfolio/blob/main/images/pokesprite.gif?raw=true)
 
